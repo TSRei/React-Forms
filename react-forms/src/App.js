@@ -1,11 +1,11 @@
+import React, { Component } from "react";
 import "./App.css";
+import FormikMaterialUi from "./components/FormikMaterialUI";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return <FormikMaterialUi />;
+  }
 }
 
 export default App;
